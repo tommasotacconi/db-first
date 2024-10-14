@@ -1,0 +1,15 @@
+
+Nome tabella: secondhand_cars
+
+id                    BIGINT              PRIMARY_KEY      AUTO_INCREMENT
+model_name            VARCHAR(30)         NOT_NULL
+color                 VARCHAR(20)         NOT_NULL
+constructor           VARCHAR(30)         NOT_NULL
+fabrication_year      YEAR                NOT_NULL
+km_travelled          MEDIUMINT           NOT_NULL
+engine_type           VARCHAR(20)         NOT_NULL
+engine_size           SMALLINT            NOT_NULL
+power                 SMALLINT            NOT_NULL
+traction              VARCHAR(30)         NOT_NULL
+frame_number          BIGINT              NOT_NULL         UNIQUE
+sold                  BOOLEAN             NOT_NULL         DEFAULT(FALSE) 

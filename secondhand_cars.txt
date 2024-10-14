@@ -13,3 +13,6 @@ power                 SMALLINT            NOT_NULL
 traction              VARCHAR(30)         NOT_NULL
 frame_number          BIGINT              NOT_NULL         UNIQUE
 sold                  BOOLEAN             NOT_NULL         DEFAULT(FALSE) 
+
+
+(final commit)
